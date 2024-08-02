@@ -1,0 +1,17 @@
+{
+  "name": "wasm-passkey",
+  "version": "0.1.0",
+  "license": "MIT",
+  "files": [
+    "wasm_passkey_bg.wasm",
+    "wasm_passkey.js",
+    "wasm_passkey_bg.js",
+    "wasm_passkey.d.ts"
+  ],
+  "module": "wasm_passkey.js",
+  "types": "wasm_passkey.d.ts",
+  "sideEffects": [
+    "./wasm_passkey.js",
+    "./snippets/*"
+  ]
+}

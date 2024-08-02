@@ -1,0 +1,3 @@
+[tasks.build-web]
+command = "wasm-pack"
+args = ["build", "--out-dir", "./wasm"]
